@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- navbar -->
+    <div class="nav-container">
+        <div class="nav-item">
+            <a href="#sec1" class="nav2">Home</a>
+            <div class="line"></div>
+        </div>
+        <div class="nav-item">
+            <a href="#sec2" class="nav3">About</a>
+            <div class="line"></div>
+        </div>
+            <img src="data:image/jpeg;base64,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" width="30px" height="40px" alt="" sizes="3O*30" srcset="">
+            <div class="nav-item">
+           <a href="#sec3" class="nav4">Gallery</a>
+           <div class="line"></div></div>
+        <div class="nav-item">
+            <a href="#field" class="nav5">Feedback</a>
+            <div class="line"></div> 
+        </div>
+    </div>
+    <!-- end navbar -->
+    <br>
+    <br>
+    <!-- sec2 -->       
+    <div class="sec2">
+        <h1 id="sec1">About Us</h1>
+        <br>
+        <p class="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, <br> nemo expedita aut architecto velit  consequatur illo sed  molestiae <br> voluptatum, similique alias laudantium ab ducimus repellendus at <br> quod minima laboriosam quaerat. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, <br> nemo expedita aut architecto velit  consequatur illo sed  molestiae <br> voluptatum, similique alias laudantium ab ducimus repellendus at <br> quod minima laboriosam quaerat. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, <br> nemo expedita aut architecto velit  consequatur illo sed  molestiae <br> voluptatum, similique alias laudantium ab ducimus repellendus at <br> quod minima laboriosam quaerat.</p>
+        <br>
+    </div>
+    <div class="img">  <img src="https://cdn.shopify.com/s/files/1/2302/7371/products/7c95ec_cb3e51295ec44412ac0cfd76c41cc7a0_mv2_939x.png?v=1503762433" alt="" style="width: 600px"></div>
+    <!--end sec2 -->
+    <!-- sec3 -->
+    <div class="back-image">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 id="sec2"> About</h2>
+        <div class="container">
+            <div class="About1">
+                <center>
+                    <p>
+                        <legend>
+                            <strong>Web development</strong>
+                        </legend>
+                        <br><br>
+                        students will learn HTML
+                        <br>CSS and JavaSript first;<br>Then they'll will be introduced <br> 
+                        to FireBase Database,<br>to buid fully functional <br> websites. <br> <br>
+                    </p> 
+                    <div class="text1">
+                        <button class="sub">subscribe now</button>
+                        <div class="line2"></div>
+                    </div>
+                    
+                </center>
+            </div>
+
+            <div class="About2">
+                <center>
+                     <p>
+                         <legend> <strong>Web development</strong></legend>
+                         <br><br>
+                        students will learn HTML <br>CSS and JavaSript first;<br>Then they'll will be introduced <br>
+                        to FireBase Database,<br>to buid fully functional <br> websites. <br> <br>
+                    </p>  
+                    <div class="text1">
+                        <button class="sub">subscribe now</button>
+                        <div class="line2"></div>
+                    </div>
+                </center>
+            </div>
+            <div class="About3">
+                <center>
+                     <p>
+                         <legend> <strong>Web development</strong></legend
+                            ><br><br>
+                            students will learn HTML <br>CSS and JavaSript first;<br>Then they'll will be introduced <br>
+                            to FireBase Database,<br>to buid fully functional <br> websites. <br> <br>
+                    </p> 
+                    <div class="text1"> 
+                        <button class="sub">subscribe now</button>
+                        <div class="line2"></div>   
+                    </div>
+                    </center>
+                </div>
+            </div>
+        </div>  
+    <h2 id="sec3">Gallery </h2>
+   <div class="grid-container">
+        <div class="item1">     
+        </div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+   </div>
+   <!--h2 id="sec4"><center> Feedback</center></h2-->
+  <div id="field"> <fieldset> <legend><h1> Feedback</h1></legend> <br> <br> <strong> Name:</strong> <br>
+  <input type="text" class="input1" placeholder="louay Nabouli"> <br> <br>
+    <strong> Email:</strong> <br> 
+    <input type="text" class="input1" placeholder="louaynabouli@gmail.com"> <br> <br>
+     <strong>Pone Number:</strong> <br>
+    <input type="number" class="input1" placeholder="+212 22 656 718"><br> <br>
+    <strong>Slide Link:</strong> <br>
+    <input type="text" class="input1"placeholder=https://gomycodesousse.slack.com/messages/GKH0CRY3U/> <br> <br>
+    <strong>Message (Optional)</strong> <br>
+    <textarea name="" class="input2" cols="30" rows="10"></textarea>
+ </div>
+</fieldset>
+</body>
+</html>                 
